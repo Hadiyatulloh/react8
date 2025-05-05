@@ -1,0 +1,43 @@
+.usercard {
+    width: 360px;
+    height: 550px;
+    padding: 30px 15px;
+    text-align: center;
+    background: #FCF2E5;
+    border-radius: 30px;
+    box-shadow: 0px 1px 1px 1.5px rgb(0, 0, 0);
+}
+
+body {
+    max-width: 1400px;
+    background: linear-gradient(to right, blue, red);
+}
+
+.t {
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 1.5px rgb(80, 79, 79);
+}
+
+.usercard h2,
+p {
+    margin-top: 10px;
+}
+
+button {
+    width: 340px;
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    border: none;
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+button img {
+    width: 40px;
+    height: 40px;
+}
